@@ -7,10 +7,6 @@ function FlashCardStudy() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
 
-  useEffect(() => {
-    console.log(currentIndex);
-  }, [currentIndex]);
-
   function handleNext() {
     if (currentIndex < deck.flashCards.length - 1) {
       setFlipped(false);
@@ -19,7 +15,7 @@ function FlashCardStudy() {
   }
 
   function handlePrevious() {
-    if (currentIndex >= 0) {
+    if (currentIndex > 0) {
       setFlipped(false);
       setCurrentIndex((currentIndex) => currentIndex - 1);
     }
