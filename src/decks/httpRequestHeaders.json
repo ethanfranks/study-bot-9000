@@ -1,0 +1,37 @@
+{
+  "deckTitle": "HTTP Request Headers",
+  "flashCards": [
+    {
+      "frontSide": "Accept",
+      "backSide": "Specifies the types of media that are acceptable for the response. It informs the server about the preferred content type of the client."
+    },
+    {
+      "frontSide": "User-Agent",
+      "backSide": "Identifies the user agent (such as a browser or a crawler) making the request, which helps the server provide content tailored to the user's device or application."
+    },
+    {
+      "frontSide": "Host",
+      "backSide": "Indicates the domain name of the server being requested. It is mandatory for HTTP/1.1 requests and is used to route the request to the appropriate server when multiple domains are hosted on the same IP address."
+    },
+    {
+      "frontSide": "Authorization",
+      "backSide": "Used to include credentials (e.g., a token or username and password) for authentication purposes. It allows the client to access protected resources on the server."
+    },
+    {
+      "frontSide": "Content-Type",
+      "backSide": "Specifies the media type of the request body (e.g., 'application/json' or 'text/html'). It informs the server about the format of the data being sent in the request."
+    },
+    {
+      "frontSide": "Cookie",
+      "backSide": "Contains previously set cookies that the client sends back to the server. This helps maintain session state and user authentication information between requests."
+    },
+    {
+      "frontSide": "Referer (or Referrer)",
+      "backSide": "Indicates the URL of the referring page or the previous page that led the user to the current request. It is often used for analytics and tracking purposes."
+    },
+    {
+      "frontSide": "Origin",
+      "backSide": "Specifies the origin (protocol, domain, and port) of the page that initiated a cross-origin request. It is used to enforce the same-origin policy for security."
+    }
+  ]
+}

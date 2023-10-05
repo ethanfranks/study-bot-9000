@@ -1,0 +1,26 @@
+.Container {
+  height: 30%;
+  width: 40%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #505050;
+  border-radius: 10px;
+  box-shadow: 20px -10px #008080;
+}
+
+.Spacer {
+  height: 10px;
+}
+
+.ButtonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.Button {
+
+}
