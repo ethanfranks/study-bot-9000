@@ -1,14 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./FlashCard.css";
 import FlashCardSide from "./FlashCardSide/FlashCardSide";
 
-const FlashCard = ({ flashCard }) => {
-  const [flipped, setFlipped] = useState(false);
-
-  function handleFlip() {
-    setFlipped((flipped) => !flipped);
-  }
-
+const FlashCard = ({ flashCard, flipped, handleFlip }) => {
   return (
     <div aria-label="flash card" className="Container">
       {!flipped ? (
